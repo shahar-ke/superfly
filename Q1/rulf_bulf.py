@@ -7,7 +7,7 @@ def read_user_args():
                                                  'prints "Rulf" for multiples of 3, '
                                                  'prints "Bulf" for multiples of 5, '
                                                  'prints "RulfBulf" for both')
-    parser.add_argument('--n', dest='n', type=int, default=100)
+    parser.add_argument('--n', dest='n', type=int, default=100, help='the number to count to from 1')
     return parser.parse_args()
 
 
