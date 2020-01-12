@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+<script src="age_increase.js">
+</script>
+<h2>Basic HTML Table</h2>
+
+<table style="width:100%">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>David</td>
+        <td>M</td>
+        <td id="DavidAge">20</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Emma</td>
+        <td>F</td>
+        <td id="EmmaAge">30</td>
+    </tr>
+</table>
+<button id="age_increase" type="button" onclick=ageIncrease()>Age Increase!</button>
+</body>
+</html>
